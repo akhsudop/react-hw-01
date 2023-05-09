@@ -1,0 +1,26 @@
+table thead {
+  background-color: rgb(126, 126, 234);
+  color: aliceblue;
+}
+table {
+  border: 1px solid rgba(196, 196, 239, 0.499);
+  margin-top: 40px;
+  width: 60%;
+  text-align: center;
+  border-collapse: collapse;
+  box-shadow: 0px 6px 23px -6px rgba(66, 68, 90, 1);
+}
+
+table td {
+  padding-block: 10px;
+}
+table th:not(:last-child),
+table td:not(:last-child) {
+  border-right: 1px solid rgba(196, 196, 239, 0.499);
+}
+table tr:nth-child(even) {
+  background-color: rgba(196, 196, 239, 0.499);
+}
+table th {
+  padding-block: 10px;
+}
